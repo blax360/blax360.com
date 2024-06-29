@@ -3,7 +3,7 @@ email: blax360.com@gmail.com
 description: >- # La descripción del sitio
   Creando historias, frame a frame.
 baseurl: "" # La URL base para el despliegue (puedes dejarla vacía para entorno local)
-url: "http://localhost:4000" # La URL de tu sitio web
+url: "https://blax360.github.io/blax360.com/" # La URL de tu sitio web
 twitter_username: blax360
 github_username: tu-usuario-github
 
