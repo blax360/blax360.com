@@ -5,7 +5,7 @@ description: >- # La descripción del sitio
 baseurl: "" # La URL base para el despliegue (puedes dejarla vacía para entorno local)
 url: "https://blax360.github.io/blax360.com/" # La URL de tu sitio web
 twitter_username: blax360
-github_username: tu-usuario-github
+github_username: blax360
 
 # Build settings
 theme: minima
