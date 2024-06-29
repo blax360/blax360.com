@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ page.title }} - {{ site.title }}</title>
+    <link rel="stylesheet" href="{{ '/css/styles.css' | relative_url }}">
+</head>
+<body>
+    <button id="theme-switch">Cambiar Tema</button>
+    <header>
+        {% include header.html %}
+    </header>
+    <main>
+        {{ content }}
+    </main>
+    <footer>
+        {% include footer.html %}
+    </footer>
+    <script src="{{ '/js/scripts.js' | relative_url }}"></script>
+    <audio id="clickSound" src="{{ '/Audiio_MenuFlip1-MP3.mp3' | relative_url }}" preload="auto"></audio>
+</body>
+</html>

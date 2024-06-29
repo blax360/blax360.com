@@ -1,0 +1,26 @@
+title: Bladimir Salazar - Creador Multimedia
+email: blax360.com@gmail.com
+description: >- # La descripción del sitio
+  Creando historias, frame a frame.
+baseurl: "" # La URL base para el despliegue (puedes dejarla vacía para entorno local)
+url: "http://localhost:4000" # La URL de tu sitio web
+twitter_username: blax360
+github_username: tu-usuario-github
+
+# Build settings
+theme: minima
+plugins:
+  - jekyll-feed
+
+# Excluir del procesamiento
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/

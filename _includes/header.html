@@ -1,0 +1,14 @@
+<div class="container">
+    <div id="branding">
+        <h1><span class="highlight">Bladimir Salazar</span></h1>
+    </div>
+    <nav>
+        <ul>
+            <li class="{% if page.url == '/' %}current{% endif %}"><a href="{{ '/' | relative_url }}">Inicio</a></li>
+            <li class="{% if page.url == '/portfolio/' %}current{% endif %}"><a href="{{ '/portfolio/' | relative_url }}">Portafolio</a></li>
+            <li class="{% if page.url == '/blog/' %}current{% endif %}"><a href="{{ '/blog/' | relative_url }}">Blog</a></li>
+            <li class="{% if page.url == '/vr/' %}current{% endif %}"><a href="{{ '/vr/' | relative_url }}">VR Streaming</a></li>
+            <li class="{% if page.url == '/contact/' %}current{% endif %}"><a href="{{ '/contact/' | relative_url }}">Contacto</a></li>
+        </ul>
+    </nav>
+</div>
