@@ -1,0 +1,8 @@
+---
+layout: post
+title: "Mi primer post"
+date: 2024-06-30 12:00:00 -0000
+categories: blog
+---
+
+¡Bienvenido a mi primer post en el blog! Aquí comparto información interesante sobre mis proyectos y más.
