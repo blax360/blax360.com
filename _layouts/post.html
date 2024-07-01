@@ -7,3 +7,15 @@ layout: default
     <p><time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %d, %Y" }}</time></p>
     {{ content }}
 </article>
+
+<!-- Widget de Posts Relacionados -->
+<section class="related-posts">
+    <h2>Posts Relacionados</h2>
+    <ul>
+        {% for post in site.categories[page.categories[0]] %}
+            {% if post.url != page.url %}
+                <li><a href="{{ post.url | relative_url }}">{{ post.title }}</a></li>
+            {% endif %}
+        {% endfor %}
+    </ul>
+</section>

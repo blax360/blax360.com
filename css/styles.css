@@ -157,3 +157,34 @@ footer {
     font-family: 'Press Start 2P', cursive;
     font-size: 12px;
 }
+/* Estilos para el widget de posts relacionados */
+.related-posts {
+    margin-top: 40px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.related-posts h2 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.related-posts ul {
+    list-style: none;
+    padding: 0;
+}
+
+.related-posts li {
+    margin-bottom: 10px;
+}
+
+.related-posts li a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.related-posts li a:hover {
+    text-decoration: underline;
+}
