@@ -2,25 +2,8 @@
 layout: default
 ---
 
-<!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ page.title }} - {{ site.title }}</title>
-    <link rel="stylesheet" href="{{ '/css/styles.css' | relative_url }}">
-</head>
-<body>
- 
-    <main>
-        <article class="post">
-            <h1>{{ page.title }}</h1>
-            <p><time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %d, %Y" }}</time></p>
-            {{ content }}
-        </article>
-    </main>
-    
-    <script src="{{ '/js/scripts.js' | relative_url }}"></script>
-    <audio id="clickSound" src="{{ '/Audiio_MenuFlip1-MP3.mp3' | relative_url }}" preload="auto"></audio>
-</body>
-</html>
+<article class="post">
+    <h1>{{ page.title }}</h1>
+    <p><time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %d, %Y" }}</time></p>
+    {{ content }}
+</article>
