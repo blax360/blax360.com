@@ -2,7 +2,7 @@ title: Bladimir Salazar - Creador Multimedia
 email: blax360.com@gmail.com
 description: >- # La descripción del sitio
   Creando historias, frame a frame.
-baseurl: "https://blax360com-lxkrx.kinsta.page" # La URL base para el despliegue (puedes dejarla vacía para entorno local)
+baseurl: "" # La URL base para el despliegue (puedes dejarla vacía para entorno local)
 url: "https://blax360com-lxkrx.kinsta.page" # La URL de tu sitio en Kinsta
 encoding: "utf-8"
 twitter_username: blax360
