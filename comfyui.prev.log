@@ -1,0 +1,673 @@
+## ComfyUI-Manager: installing dependencies done.
+[2024-08-23 22:13] ** ComfyUI startup time: 2024-08-23 22:13:23.113996
+[2024-08-23 22:13] ** Platform: Darwin
+[2024-08-23 22:13] ** Python version: 3.11.4 (v3.11.4:d2340ef257, Jun  6 2023, 19:15:51) [Clang 13.0.0 (clang-1300.0.29.30)]
+[2024-08-23 22:13] ** Python executable: /Library/Frameworks/Python.framework/Versions/3.11/bin/python3.11
+[2024-08-23 22:13] ** ComfyUI Path: /Users/blax360/AI/ComfyUI
+[2024-08-23 22:13] ** Log path: /Users/blax360/blax360.com/comfyui.log
+[2024-08-23 22:13] 
+Prestartup times for custom nodes:
+[2024-08-23 22:13]    0.0 seconds: /Users/blax360/AI/ComfyUI/custom_nodes/rgthree-comfy
+[2024-08-23 22:13]    0.0 seconds: /Users/blax360/AI/ComfyUI/custom_nodes/ComfyUI-Stable-Video-Diffusion
+[2024-08-23 22:13]    9.9 seconds: /Users/blax360/AI/ComfyUI/custom_nodes/ComfyUI-Manager
+[2024-08-23 22:13] 
+Total VRAM 65536 MB, total RAM 65536 MB
+[2024-08-23 22:13] pytorch version: 2.2.0.dev20231128
+[2024-08-23 22:13] Set vram state to: SHARED
+[2024-08-23 22:13] Device: mps
+[2024-08-23 22:13] Using sub quadratic optimization for cross attention, if you have memory or speed issues try using: --use-split-cross-attention
+[2024-08-23 22:13] [Prompt Server] web root: /Users/blax360/AI/ComfyUI/web
+[2024-08-23 22:13] /Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/diffusers/models/transformers/transformer_2d.py:34: FutureWarning: `Transformer2DModelOutput` is deprecated and will be removed in version 1.0.0. Importing `Transformer2DModelOutput` from `diffusers.models.transformer_2d` is deprecated and this will be removed in a future version. Please use `from diffusers.models.modeling_outputs import Transformer2DModelOutput`, instead.
+  deprecate("Transformer2DModelOutput", "1.0.0", deprecation_message)
+[2024-08-23 22:13] Note: NumExpr detected 10 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2024-08-23 22:13] NumExpr defaulting to 8 threads.
+[2024-08-23 22:13] ### Loading: ComfyUI-Manager (V2.48.6)
+[2024-08-23 22:13] ### ComfyUI Revision: 2529 [5942c17d] | Released on '2024-08-12'
+[2024-08-23 22:13] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/model-list.json
+[2024-08-23 22:13] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/alter-list.json
+[2024-08-23 22:13] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/github-stats.json
+[2024-08-23 22:13] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/extension-node-map.json
+[2024-08-23 22:13] [ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/custom-node-list.json
+[2024-08-23 22:13] [0;33m[ReActor][0m - [38;5;173mSTATUS[0m - [0;32mRunning v0.5.1-a6 in ComfyUI[0m
+[2024-08-23 22:13] Torch version: 2.2.0.dev20231128
+[2024-08-23 22:13] [34mWAS Node Suite: [0mOpenCV Python FFMPEG support is enabled[0m
+[2024-08-23 22:13] [34mWAS Node Suite: [0m`ffmpeg_bin_path` is set to: /Users/blax360/AI/ComfyUI/ffmpeg[0m
+[2024-08-23 22:13] [34mWAS Node Suite: [0mFinished.[0m [32mLoaded[0m [0m218[0m [32mnodes successfully.[0m
+[2024-08-23 22:13] 
+	[3m[93m"Don't wait. The time will never be just right."[0m[3m - Napoleon Hill[0m
+[2024-08-23 22:13] 
+[2024-08-23 22:13] 
+[2024-08-23 22:13] [92m[rgthree] Loaded 43 magnificent nodes.[00m
+[2024-08-23 22:13] [92m[rgthree] Will use rgthree's optimized recursive execution.[00m
+[2024-08-23 22:13] 
+[2024-08-23 22:13] [94m[Allor][0m: No new updates.
+[2024-08-23 22:13] [92m[Allor][0m: 0 nodes were overridden.
+[2024-08-23 22:13] [92m[Allor][0m: 12 modules were enabled.
+[2024-08-23 22:13] [92m[Allor][0m: 98 nodes were loaded.
+[2024-08-23 22:13] ### Loading: ComfyUI-Impact-Pack (V6.2)
+[2024-08-23 22:13] ### Loading: ComfyUI-Impact-Pack (Subpack: V0.6)
+[2024-08-23 22:13] [Impact Pack] Wildcards loading done.
+[2024-08-23 22:13] Total VRAM 65536 MB, total RAM 65536 MB
+[2024-08-23 22:13] pytorch version: 2.2.0.dev20231128
+[2024-08-23 22:13] Set vram state to: SHARED
+[2024-08-23 22:13] Device: mps
+[2024-08-23 22:13] ### Loading: ComfyUI-Inspire-Pack (V0.83)
+[2024-08-23 22:13] [36;20m[comfyui_controlnet_aux] | INFO -> Using ckpts path: /Users/blax360/AI/ComfyUI/custom_nodes/comfyui_controlnet_aux/ckpts[0m
+[2024-08-23 22:13] [36;20m[comfyui_controlnet_aux] | INFO -> Using symlinks: False[0m
+[2024-08-23 22:13] [36;20m[comfyui_controlnet_aux] | INFO -> Using ort providers: ['CUDAExecutionProvider', 'DirectMLExecutionProvider', 'OpenVINOExecutionProvider', 'ROCMExecutionProvider', 'CPUExecutionProvider', 'CoreMLExecutionProvider'][0m
+[2024-08-23 22:13] Torch version: 2.2.0.dev20231128
+[2024-08-23 22:13] ------------------------------------------
+[2024-08-23 22:13] [34m### N-Suite Revision:[0m [32m59ecf716 [0m
+[2024-08-23 22:13] Current version of packaging: 23.1
+[2024-08-23 22:13] Version of cpuinfo: Not found
+[2024-08-23 22:13] Current version of git: 3.1.40
+[2024-08-23 22:13] Current version of moviepy: 1.0.3
+[2024-08-23 22:13] Current version of cv2: 4.7.0
+[2024-08-23 22:13] Current version of skbuild: 0.17.6
+[2024-08-23 22:13] Version of typing: Not found
+[2024-08-23 22:13] Current version of diskcache: 5.6.3
+[2024-08-23 22:13] Current version of llama_cpp: 0.2.79
+[2024-08-23 22:13] Current version of timm: 0.9.12
+[2024-08-23 22:13] [34mFizzleDorf Custom Nodes: [92mLoaded[0m
+[2024-08-23 22:14] [36mEfficiency Nodes:[0m Attempting to add Control Net options to the 'HiRes-Fix Script' Node (comfyui_controlnet_aux add-on)...[92mSuccess![0m
+[2024-08-23 22:14] ------------------------------------------
+[2024-08-23 22:14] [34mComfyroll Studio v1.76 : [92m 175 Nodes Loaded[0m
+[2024-08-23 22:14] ------------------------------------------
+[2024-08-23 22:14] ** For changes, please see patch notes at https://github.com/Suzie1/ComfyUI_Comfyroll_CustomNodes/blob/main/Patch_Notes.md
+[2024-08-23 22:14] ** For help, please see the wiki at https://github.com/Suzie1/ComfyUI_Comfyroll_CustomNodes/wiki
+[2024-08-23 22:14] ------------------------------------------
+[2024-08-23 22:14] [36;20m[custom_nodes.comfyui_controlnet_aux] | INFO -> Using ckpts path: /Users/blax360/AI/ComfyUI/custom_nodes/comfyui_controlnet_aux/ckpts[0m
+[2024-08-23 22:14] [36;20m[custom_nodes.comfyui_controlnet_aux] | INFO -> Using symlinks: False[0m
+[2024-08-23 22:14] [36;20m[custom_nodes.comfyui_controlnet_aux] | INFO -> Using ort providers: ['CUDAExecutionProvider', 'DirectMLExecutionProvider', 'OpenVINOExecutionProvider', 'ROCMExecutionProvider', 'CPUExecutionProvider', 'CoreMLExecutionProvider'][0m
+[2024-08-23 22:14] [36;20m[comfy_mtb] | INFO -> loaded [96m84[0m nodes successfuly[0m
+[2024-08-23 22:14] [36;20m[comfy_mtb] | INFO -> Some nodes (2) could not be loaded. This can be ignored, but go to http://127.0.0.1:8188/mtb if you want more information.[0m
+[2024-08-23 22:14] [92m[tinyterraNodes] [32mLoaded[0m
+[2024-08-23 22:14] Loaded Efficiency nodes from /Users/blax360/AI/ComfyUI/custom_nodes/efficiency-nodes-comfyui
+[2024-08-23 22:14] Loaded ControlNetPreprocessors nodes from /Users/blax360/AI/ComfyUI/custom_nodes/comfyui_controlnet_aux
+[2024-08-23 22:14] Loaded AdvancedControlNet nodes from /Users/blax360/AI/ComfyUI/custom_nodes/ComfyUI-Advanced-ControlNet
+[2024-08-23 22:14] Loaded AnimateDiff from /Users/blax360/AI/ComfyUI/custom_nodes/comfyui-animatediff/animatediff/sliding_schedule.py
+[2024-08-23 22:14] Loaded IPAdapter nodes from /Users/blax360/AI/ComfyUI/custom_nodes/ComfyUI_IPAdapter_plus
+[2024-08-23 22:14] Loaded VideoHelperSuite from /Users/blax360/AI/ComfyUI/custom_nodes/ComfyUI-VideoHelperSuite
+[2024-08-23 22:14] ### Loading: ComfyUI-Impact-Pack (V6.2)
+[2024-08-23 22:14] Loaded ImpactPack nodes from /Users/blax360/AI/ComfyUI/custom_nodes/ComfyUI-Impact-Pack
+[2024-08-23 22:14] [Impact Pack] Wildcards loading done.
+[2024-08-23 22:14] 
+Import times for custom nodes:
+[2024-08-23 22:14]    0.0 seconds: /Users/blax360/AI/ComfyUI/custom_nodes/ComfyUI_IPAdapter_plus
+[2024-08-23 22:14]    0.0 seconds: /Users/blax360/AI/ComfyUI/custom_nodes/SDXLAspectRatio.py
+[2024-08-23 22:14]    0.0 seconds: /Users/blax360/AI/ComfyUI/custom_nodes/websocket_image_save.py
+[2024-08-23 22:14]    0.0 seconds: /Users/blax360/AI/ComfyUI/custom_nodes/ComfyUI-Image-Selector
+[2024-08-23 22:14]    0.0 seconds: /Users/blax360/AI/ComfyUI/custom_nodes/canvas_tab
+[2024-08-23 22:14]    0.0 seconds: /Users/blax360/AI/ComfyUI/custom_nodes/sdxl_prompt_styler
+[2024-08-23 22:14]    0.0 seconds: /Users/blax360/AI/ComfyUI/custom_nodes/comfy-image-saver
+[2024-08-23 22:14]    0.0 seconds: /Users/blax360/AI/ComfyUI/custom_nodes/stability-ComfyUI-nodes
+[2024-08-23 22:14]    0.0 seconds: /Users/blax360/AI/ComfyUI/custom_nodes/ComfyUI_Noise
+[2024-08-23 22:14]    0.0 seconds: /Users/blax360/AI/ComfyUI/custom_nodes/masquerade-nodes-comfyui
+[2024-08-23 22:14]    0.0 seconds: /Users/blax360/AI/ComfyUI/custom_nodes/ComfyUI-Eagle-PNGInfo
+[2024-08-23 22:14]    0.0 seconds: /Users/blax360/AI/ComfyUI/custom_nodes/ComfyUI-post-processing-nodes
+[2024-08-23 22:14]    0.0 seconds: /Users/blax360/AI/ComfyUI/custom_nodes/ComfyUI_experiments
+[2024-08-23 22:14]    0.0 seconds: /Users/blax360/AI/ComfyUI/custom_nodes/ComfyUI-Flowty-LDSR
+[2024-08-23 22:14]    0.0 seconds: /Users/blax360/AI/ComfyUI/custom_nodes/ComfyUI_essentials
+[2024-08-23 22:14]    0.0 seconds: /Users/blax360/AI/ComfyUI/custom_nodes/ComfyUI_FizzNodes
+[2024-08-23 22:14]    0.0 seconds: /Users/blax360/AI/ComfyUI/custom_nodes/ComfyUI-Custom-Scripts
+[2024-08-23 22:14]    0.0 seconds: /Users/blax360/AI/ComfyUI/custom_nodes/comfyui-animatediff
+[2024-08-23 22:14]    0.0 seconds: /Users/blax360/AI/ComfyUI/custom_nodes/ComfyUI_UltimateSDUpscale
+[2024-08-23 22:14]    0.0 seconds: /Users/blax360/AI/ComfyUI/custom_nodes/Derfuu_ComfyUI_ModdedNodes
+[2024-08-23 22:14]    0.0 seconds: /Users/blax360/AI/ComfyUI/custom_nodes/ComfyUI-Frame-Interpolation
+[2024-08-23 22:14]    0.0 seconds: /Users/blax360/AI/ComfyUI/custom_nodes/ComfyUI-KJNodes
+[2024-08-23 22:14]    0.0 seconds: /Users/blax360/AI/ComfyUI/custom_nodes/efficiency-nodes-comfyui
+[2024-08-23 22:14]    0.0 seconds: /Users/blax360/AI/ComfyUI/custom_nodes/ComfyUI-Advanced-ControlNet
+[2024-08-23 22:14]    0.0 seconds: /Users/blax360/AI/ComfyUI/custom_nodes/rgthree-comfy
+[2024-08-23 22:14]    0.0 seconds: /Users/blax360/AI/ComfyUI/custom_nodes/ComfyUI_tinyterraNodes
+[2024-08-23 22:14]    0.0 seconds: /Users/blax360/AI/ComfyUI/custom_nodes/ComfyUI-AnimateDiff-Evolved
+[2024-08-23 22:14]    0.0 seconds: /Users/blax360/AI/ComfyUI/custom_nodes/ComfyUI_Comfyroll_CustomNodes
+[2024-08-23 22:14]    0.0 seconds: /Users/blax360/AI/ComfyUI/custom_nodes/comfyui_controlnet_aux
+[2024-08-23 22:14]    0.0 seconds: /Users/blax360/AI/ComfyUI/custom_nodes/ComfyUI-Inspire-Pack
+[2024-08-23 22:14]    0.0 seconds: /Users/blax360/AI/ComfyUI/custom_nodes/ComfyUI-Stable-Video-Diffusion
+[2024-08-23 22:14]    0.0 seconds: /Users/blax360/AI/ComfyUI/custom_nodes/comfy_mtb
+[2024-08-23 22:14]    0.1 seconds: /Users/blax360/AI/ComfyUI/custom_nodes/ComfyUI_InstantID
+[2024-08-23 22:14]    0.1 seconds: /Users/blax360/AI/ComfyUI/custom_nodes/ComfyUI-Impact-Pack
+[2024-08-23 22:14]    0.1 seconds: /Users/blax360/AI/ComfyUI/custom_nodes/ComfyUI-InstaSwap
+[2024-08-23 22:14]    0.1 seconds: /Users/blax360/AI/ComfyUI/custom_nodes/ComfyUI-Manager
+[2024-08-23 22:14]    0.1 seconds: /Users/blax360/AI/ComfyUI/custom_nodes/Comfyui-Yolov8
+[2024-08-23 22:14]    0.1 seconds: /Users/blax360/AI/ComfyUI/custom_nodes/comfyui-art-venture
+[2024-08-23 22:14]    0.2 seconds: /Users/blax360/AI/ComfyUI/custom_nodes/ComfyUI-Anyline
+[2024-08-23 22:14]    0.3 seconds: /Users/blax360/AI/ComfyUI/custom_nodes/ComfyUI-VideoHelperSuite
+[2024-08-23 22:14]    1.0 seconds: /Users/blax360/AI/ComfyUI/custom_nodes/ComfyUI-N-Nodes
+[2024-08-23 22:14]    1.7 seconds: /Users/blax360/AI/ComfyUI/custom_nodes/ComfyUI_smZNodes
+[2024-08-23 22:14]    1.9 seconds: /Users/blax360/AI/ComfyUI/custom_nodes/comfyui-propost
+[2024-08-23 22:14]    2.0 seconds: /Users/blax360/AI/ComfyUI/custom_nodes/ComfyUI-SegMoE
+[2024-08-23 22:14]    2.0 seconds: /Users/blax360/AI/ComfyUI/custom_nodes/was-node-suite-comfyui
+[2024-08-23 22:14]    2.6 seconds: /Users/blax360/AI/ComfyUI/custom_nodes/comfyui-reactor-node
+[2024-08-23 22:14]   15.7 seconds: /Users/blax360/AI/ComfyUI/custom_nodes/ComfyUI-Allor
+[2024-08-23 22:14] 
+[2024-08-23 22:14] Starting server
+
+[2024-08-23 22:14] To see the GUI go to: http://127.0.0.1:8188
+[2024-08-23 22:14] FETCH DATA from: /Users/blax360/AI/ComfyUI/custom_nodes/ComfyUI-Manager/extension-node-map.json [DONE]
+[2024-08-23 22:15] got prompt
+[2024-08-23 22:15] [32m[rgthree] Using rgthree's optimized recursive execution.[00m
+[2024-08-23 22:15] [32m[rgthree][00m First run patching recursive_output_delete_if_changed and recursive_will_execute.[00m
+[2024-08-23 22:15] [33m[rgthree] Note: [0mIf execution seems broken due to forward ComfyUI changes, you can disable the optimization from rgthree settings in ComfyUI.[00m
+[2024-08-23 22:15] model weight dtype torch.float16, manual cast: None
+[2024-08-23 22:15] model_type EPS
+[2024-08-23 22:15] Using split attention in VAE
+[2024-08-23 22:15] Using split attention in VAE
+[2024-08-23 22:15] Requested to load SDXLClipModel
+[2024-08-23 22:15] Loading 1 new model
+[2024-08-23 22:15] model weight dtype torch.float16, manual cast: None
+[2024-08-23 22:15] model_type EPS
+[2024-08-23 22:15] Requested to load SDXLClipModel
+[2024-08-23 22:15] Loading 1 new model
+[2024-08-23 22:15] Requested to load SDXLClipModel
+[2024-08-23 22:15] Loading 1 new model
+[2024-08-23 22:15] Requested to load SDXLClipModel
+[2024-08-23 22:15] Loading 1 new model
+[2024-08-23 22:15] ----------------------------------------
+[2024-08-23 22:15] [36mEff. Loader SDXL Models Cache:[0m
+[2024-08-23 22:15] Ckpt:
+[2024-08-23 22:15]   [1] dreamlookai_sdxl-v1_ckpt_db_aI0QvcDX_ckp_GYqqzAvg_step_1500_image_in_ukj_style
+[2024-08-23 22:15] Refn:
+[2024-08-23 22:15]   [1] dreamlookai_sdxl-v1_ckpt_db_aI0QvcDX_ckp_GYqqzAvg_step_1500_image_in_ukj_style
+[2024-08-23 22:15] Requested to load SDXL
+[2024-08-23 22:15] Loading 1 new model
+[2024-08-23 22:16] 100%|█████████████████████████████| 20/20 [00:36<00:00,  1.39s/it]100%|█████████████████████████████| 20/20 [00:36<00:00,  1.82s/it]
+[2024-08-23 22:16] Requested to load AutoencoderKL
+[2024-08-23 22:16] Loading 1 new model
+[2024-08-23 22:16] Prompt executed in 52.81 seconds
+[2024-08-23 22:16] got prompt
+[2024-08-23 22:16] [32m[rgthree] Using rgthree's optimized recursive execution.[00m
+[2024-08-23 22:16] Prompt executed in 0.00 seconds
+[2024-08-23 22:17] Update ComfyUI
+[2024-08-23 22:17] Install: pip packages
+[2024-08-23 22:17] [ComfyUI-Manager] skip black listed pip installation: 'torch'
+[2024-08-23 22:17] [ComfyUI-Manager] skip black listed pip installation: 'torchsde'
+[2024-08-23 22:17] [ComfyUI-Manager] skip black listed pip installation: 'torchvision'
+[2024-08-23 22:17] 
+## ComfyUI-Manager: EXECUTE => ['/Library/Frameworks/Python.framework/Versions/3.11/bin/python3.11', '-m', 'pip', 'install', 'torchaudio']
+[2024-08-23 22:17]           [2024-08-23 22:17] [!] 
+[2024-08-23 22:17] [!] [notice] A new release of pip is available: 24.0 -> 24.2
+[2024-08-23 22:17] [!] [notice] To update, run: pip install --upgrade pip
+[2024-08-23 22:17] 
+## ComfyUI-Manager: EXECUTE => ['/Library/Frameworks/Python.framework/Versions/3.11/bin/python3.11', '-m', 'pip', 'install', 'einops']
+[2024-08-23 22:17]  [!] 
+[2024-08-23 22:17] [!] [notice] A new release of pip is available: 24.0 -> 24.2
+[2024-08-23 22:17] [!] [notice] To update, run: pip install --upgrade pip
+[2024-08-23 22:17] 
+## ComfyUI-Manager: EXECUTE => ['/Library/Frameworks/Python.framework/Versions/3.11/bin/python3.11', '-m', 'pip', 'install', 'transformers>=4.28.1']
+[2024-08-23 22:17]                  [!] 
+[2024-08-23 22:17] [!] [notice] A new release of pip is available: 24.0 -> 24.2
+[2024-08-23 22:17] [!] [notice] To update, run: pip install --upgrade pip
+[2024-08-23 22:17] 
+## ComfyUI-Manager: EXECUTE => ['/Library/Frameworks/Python.framework/Versions/3.11/bin/python3.11', '-m', 'pip', 'install', 'tokenizers>=0.13.3']
+[2024-08-23 22:17]              [!] 
+[2024-08-23 22:17] [!] [notice] A new release of pip is available: 24.0 -> 24.2
+[2024-08-23 22:17] [!] [notice] To update, run: pip install --upgrade pip
+[2024-08-23 22:17] 
+## ComfyUI-Manager: EXECUTE => ['/Library/Frameworks/Python.framework/Versions/3.11/bin/python3.11', '-m', 'pip', 'install', 'sentencepiece']
+[2024-08-23 22:17]  [!] 
+[2024-08-23 22:17] [!] [notice] A new release of pip is available: 24.0 -> 24.2
+[2024-08-23 22:17] [!] [notice] To update, run: pip install --upgrade pip
+[2024-08-23 22:17] 
+## ComfyUI-Manager: EXECUTE => ['/Library/Frameworks/Python.framework/Versions/3.11/bin/python3.11', '-m', 'pip', 'install', 'safetensors>=0.4.2']
+[2024-08-23 22:17]  [!] 
+[2024-08-23 22:17] [!] [notice] A new release of pip is available: 24.0 -> 24.2
+[2024-08-23 22:17] [!] [notice] To update, run: pip install --upgrade pip
+[2024-08-23 22:17] 
+## ComfyUI-Manager: EXECUTE => ['/Library/Frameworks/Python.framework/Versions/3.11/bin/python3.11', '-m', 'pip', 'install', 'aiohttp']
+[2024-08-23 22:17]        [!] 
+[2024-08-23 22:17] [!] [notice] A new release of pip is available: 24.0 -> 24.2
+[2024-08-23 22:17] [!] [notice] To update, run: pip install --upgrade pip
+[2024-08-23 22:17] 
+## ComfyUI-Manager: EXECUTE => ['/Library/Frameworks/Python.framework/Versions/3.11/bin/python3.11', '-m', 'pip', 'install', 'pyyaml']
+[2024-08-23 22:17]  [!] 
+[2024-08-23 22:17] [!] [notice] A new release of pip is available: 24.0 -> 24.2
+[2024-08-23 22:17] [!] [notice] To update, run: pip install --upgrade pip
+[2024-08-23 22:17] 
+## ComfyUI-Manager: EXECUTE => ['/Library/Frameworks/Python.framework/Versions/3.11/bin/python3.11', '-m', 'pip', 'install', 'Pillow']
+[2024-08-23 22:17]  [!] 
+[2024-08-23 22:17] [!] [notice] A new release of pip is available: 24.0 -> 24.2
+[2024-08-23 22:17] [!] [notice] To update, run: pip install --upgrade pip
+[2024-08-23 22:17] 
+## ComfyUI-Manager: EXECUTE => ['/Library/Frameworks/Python.framework/Versions/3.11/bin/python3.11', '-m', 'pip', 'install', 'scipy']
+[2024-08-23 22:17]   [!] 
+[2024-08-23 22:17] [!] [notice] A new release of pip is available: 24.0 -> 24.2
+[2024-08-23 22:17] [!] [notice] To update, run: pip install --upgrade pip
+[2024-08-23 22:17] 
+## ComfyUI-Manager: EXECUTE => ['/Library/Frameworks/Python.framework/Versions/3.11/bin/python3.11', '-m', 'pip', 'install', 'tqdm']
+[2024-08-23 22:17]  [!] 
+[2024-08-23 22:17] [!] [notice] A new release of pip is available: 24.0 -> 24.2
+[2024-08-23 22:17] [!] [notice] To update, run: pip install --upgrade pip
+[2024-08-23 22:17] 
+## ComfyUI-Manager: EXECUTE => ['/Library/Frameworks/Python.framework/Versions/3.11/bin/python3.11', '-m', 'pip', 'install', 'psutil']
+[2024-08-23 22:17]  [!] 
+[2024-08-23 22:17] [!] [notice] A new release of pip is available: 24.0 -> 24.2
+[2024-08-23 22:17] [!] [notice] To update, run: pip install --upgrade pip
+[2024-08-23 22:17] 
+## ComfyUI-Manager: EXECUTE => ['/Library/Frameworks/Python.framework/Versions/3.11/bin/python3.11', '-m', 'pip', 'install', 'kornia>=0.7.1']
+[2024-08-23 22:17]             [!] 
+[2024-08-23 22:17] [!] [notice] A new release of pip is available: 24.0 -> 24.2
+[2024-08-23 22:17] [!] [notice] To update, run: pip install --upgrade pip
+[2024-08-23 22:17] 
+## ComfyUI-Manager: EXECUTE => ['/Library/Frameworks/Python.framework/Versions/3.11/bin/python3.11', '-m', 'pip', 'install', 'spandrel']
+[2024-08-23 22:17]                     [!] 
+[2024-08-23 22:17] [!] [notice] A new release of pip is available: 24.0 -> 24.2
+[2024-08-23 22:17] [!] [notice] To update, run: pip install --upgrade pip
+[2024-08-23 22:17] 
+## ComfyUI-Manager: EXECUTE => ['/Library/Frameworks/Python.framework/Versions/3.11/bin/python3.11', '-m', 'pip', 'install', 'soundfile']
+[2024-08-23 22:17]    [!] 
+[2024-08-23 22:17] [!] [notice] A new release of pip is available: 24.0 -> 24.2
+[2024-08-23 22:17] [!] [notice] To update, run: pip install --upgrade pip
+[2024-08-23 22:17] FETCH DATA from: /Users/blax360/AI/ComfyUI/custom_nodes/ComfyUI-Manager/.cache/1514988643_custom-node-list.json [DONE]
+[2024-08-23 22:17] Start updating...[2KUpdating: /Users/blax360/AI/ComfyUI/custom_nodes/ComfyUI-Impact-Pack[2KUpdating: /Users/blax360/AI/ComfyUI/custom_nodes/ComfyUI-Inspire-Pack[2KUpdating: /Users/blax360/AI/ComfyUI/custom_nodes/ComfyUI_experiments[2KUpdating: /Users/blax360/AI/ComfyUI/custom_nodes/ComfyUI-Manager[2KUpdating: /Users/blax360/AI/ComfyUI/custom_nodes/stability-ComfyUI-nodes[2KUpdating: /Users/blax360/AI/ComfyUI/custom_nodes/comfyui_controlnet_auxInstall: pip packages
+[2024-08-23 22:17] 
+## ComfyUI-Manager: EXECUTE => ['/Library/Frameworks/Python.framework/Versions/3.11/bin/python3.11', '-m', 'pip', 'install', 'segment-anything']
+[2024-08-23 22:17] Install: pip packages
+[2024-08-23 22:17] 
+## ComfyUI-Manager: EXECUTE => ['/Library/Frameworks/Python.framework/Versions/3.11/bin/python3.11', '-m', 'pip', 'install', 'matplotlib']
+[2024-08-23 22:17]             [!] 
+[2024-08-23 22:17] [!] [notice] A new release of pip is available: 24.0 -> 24.2
+[2024-08-23 22:17] [!] [notice] To update, run: pip install --upgrade pip
+[2024-08-23 22:17] 
+## ComfyUI-Manager: EXECUTE => ['/Library/Frameworks/Python.framework/Versions/3.11/bin/python3.11', '-m', 'pip', 'install', 'scikit-image']
+[!] 
+[2024-08-23 22:17] [!] [notice] A new release of pip is available: 24.0 -> 24.2
+[2024-08-23 22:17] [!] [notice] To update, run: pip install --upgrade pip
+[2024-08-23 22:17] [2024-08-23 22:17] 
+## ComfyUI-Manager: EXECUTE => ['/Library/Frameworks/Python.framework/Versions/3.11/bin/python3.11', '-m', 'pip', 'install', 'cachetools']
+[2024-08-23 22:17] Install: pip packages
+[2024-08-23 22:17] 
+## ComfyUI-Manager: EXECUTE => ['/Library/Frameworks/Python.framework/Versions/3.11/bin/python3.11', '-m', 'pip', 'install', 'GitPython']
+[2024-08-23 22:17]               [!] 
+[2024-08-23 22:17] [!] [notice] A new release of pip is available: 24.0 -> 24.2
+[2024-08-23 22:17] [!] [notice] To update, run: pip install --upgrade pip
+[2024-08-23 22:17] 
+## ComfyUI-Manager: EXECUTE => ['/Library/Frameworks/Python.framework/Versions/3.11/bin/python3.11', '-m', 'pip', 'install', 'piexif']
+[!] 
+[2024-08-23 22:17] [!] [notice] A new release of pip is available: 24.0 -> 24.2
+[2024-08-23 22:17] [!] [notice] To update, run: pip install --upgrade pip
+[2024-08-23 22:17] [2024-08-23 22:17] 
+## ComfyUI-Manager: EXECUTE => ['/Library/Frameworks/Python.framework/Versions/3.11/bin/python3.11', '-m', 'pip', 'install', 'numpy<2']
+[!] 
+[2024-08-23 22:17] [!] [notice] A new release of pip is available: 24.0 -> 24.2
+[2024-08-23 22:17] [!] [notice] To update, run: pip install --upgrade pip
+[2024-08-23 22:17] [2024-08-23 22:17] 
+## ComfyUI-Manager: EXECUTE => ['/Library/Frameworks/Python.framework/Versions/3.11/bin/python3.11', '-m', 'pip', 'install', 'PyGithub']
+[2024-08-23 22:17]                 [!] 
+[2024-08-23 22:17] [!] [notice] A new release of pip is available: 24.0 -> 24.2
+[2024-08-23 22:17] [!] [notice] To update, run: pip install --upgrade pip
+[2024-08-23 22:17] [ComfyUI-Manager] skip black listed pip installation: 'transformers'
+[2024-08-23 22:17] 
+## ComfyUI-Manager: EXECUTE => ['/Library/Frameworks/Python.framework/Versions/3.11/bin/python3.11', '-m', 'pip', 'install', 'opencv-python-headless']
+[!] 
+[2024-08-23 22:17] [!] [notice] A new release of pip is available: 24.0 -> 24.2
+[2024-08-23 22:17] [!] [notice] To update, run: pip install --upgrade pip
+[2024-08-23 22:17] [2024-08-23 22:17] [2KUpdated: /Users/blax360/AI/ComfyUI/custom_nodes/ComfyUI-Inspire-Pack
+[2024-08-23 22:17] [2KUpdating: /Users/blax360/AI/ComfyUI/custom_nodes/ComfyUI-Frame-Interpolation[!] 
+[2024-08-23 22:17] [!] [notice] A new release of pip is available: 24.0 -> 24.2
+[2024-08-23 22:17] [!] [notice] To update, run: pip install --upgrade pip
+[2024-08-23 22:17] 
+## ComfyUI-Manager: EXECUTE => ['/Library/Frameworks/Python.framework/Versions/3.11/bin/python3.11', '-m', 'pip', 'install', 'matrix-client==0.4.0']
+[2024-08-23 22:17]         [2KUpdating: /Users/blax360/AI/ComfyUI/custom_nodes/ComfyUI_Noise[!] 
+[2024-08-23 22:17] [!] [notice] A new release of pip is available: 24.0 -> 24.2
+[2024-08-23 22:17] [!] [notice] To update, run: pip install --upgrade pip
+[2024-08-23 22:17] 
+## ComfyUI-Manager: EXECUTE => ['/Library/Frameworks/Python.framework/Versions/3.11/bin/python3.11', '-m', 'pip', 'install', 'GitPython']
+[2024-08-23 22:17] Install: pip packages
+[2024-08-23 22:17] [ComfyUI-Manager] skip black listed pip installation: 'torch'
+[2024-08-23 22:17] 
+## ComfyUI-Manager: EXECUTE => ['/Library/Frameworks/Python.framework/Versions/3.11/bin/python3.11', '-m', 'pip', 'install', 'importlib_metadata']
+[!] 
+[2024-08-23 22:17] [!] [notice] A new release of pip is available: 24.0 -> 24.2
+[2024-08-23 22:17] [!] [notice] To update, run: pip install --upgrade pip
+[2024-08-23 22:17] [2024-08-23 22:17] [ComfyUI-Manager] skip black listed pip installation: 'transformers'
+[2024-08-23 22:17] 
+## ComfyUI-Manager: EXECUTE => ['/Library/Frameworks/Python.framework/Versions/3.11/bin/python3.11', '-m', 'pip', 'install', 'huggingface-hub>0.20']
+[2024-08-23 22:17]       [2KUpdating: /Users/blax360/AI/ComfyUI/custom_nodes/efficiency-nodes-comfyui           [!] 
+[2024-08-23 22:17] [!] [notice] A new release of pip is available: 24.0 -> 24.2
+[2024-08-23 22:17] [!] [notice] To update, run: pip install --upgrade pip
+[2024-08-23 22:17] 
+## ComfyUI-Manager: EXECUTE => ['/Library/Frameworks/Python.framework/Versions/3.11/bin/python3.11', '-m', 'pip', 'install', 'scipy>=1.11.4']
+[!] 
+[2024-08-23 22:17] [!] [notice] A new release of pip is available: 24.0 -> 24.2
+[2024-08-23 22:17] [!] [notice] To update, run: pip install --upgrade pip
+[2024-08-23 22:17] [2024-08-23 22:17] 
+## ComfyUI-Manager: EXECUTE => ['/Library/Frameworks/Python.framework/Versions/3.11/bin/python3.11', '-m', 'pip', 'install', 'huggingface_hub']
+[2024-08-23 22:17] [2KUpdating: /Users/blax360/AI/ComfyUI/custom_nodes/Derfuu_ComfyUI_ModdedNodes[!] 
+[2024-08-23 22:17]  [!] [notice] A new release of pip is available: 24.0 -> 24.2
+[2024-08-23 22:17] [!] [notice] To update, run: pip install --upgrade pip
+[2024-08-23 22:17]  
+## ComfyUI-Manager: EXECUTE => ['/Library/Frameworks/Python.framework/Versions/3.11/bin/python3.11', '-m', 'pip', 'install', 'typer']
+[2024-08-23 22:17]                     [!] 
+[2024-08-23 22:17] [!] [notice] A new release of pip is available: 24.0 -> 24.2
+[2024-08-23 22:17] [!] [notice] To update, run: pip install --upgrade pip
+[2024-08-23 22:17] 
+## ComfyUI-Manager: EXECUTE => ['/Library/Frameworks/Python.framework/Versions/3.11/bin/python3.11', '-m', 'pip', 'install', 'numpy<2']
+[2024-08-23 22:17] [2KUpdating: /Users/blax360/AI/ComfyUI/custom_nodes/was-node-suite-comfyui[!] 
+[2024-08-23 22:17] [!] [notice] A new release of pip is available: 24.0 -> 24.2
+[2024-08-23 22:17] [!] [notice] To update, run: pip install --upgrade pip
+[2024-08-23 22:17] 
+## ComfyUI-Manager: EXECUTE => ['/Library/Frameworks/Python.framework/Versions/3.11/bin/python3.11', '-m', 'pip', 'install', 'scipy']
+[!] 
+[2024-08-23 22:17] [!] [notice] A new release of pip is available: 24.0 -> 24.2
+[2024-08-23 22:17] [!] [notice] To update, run: pip install --upgrade pip
+[2024-08-23 22:17] [2024-08-23 22:17]  
+## ComfyUI-Manager: EXECUTE => ['/Library/Frameworks/Python.framework/Versions/3.11/bin/python3.11', '-m', 'pip', 'install', 'rich']
+[2024-08-23 22:17]       [2KUpdating: /Users/blax360/AI/ComfyUI/custom_nodes/ComfyUI-post-processing-nodes[!] 
+[2024-08-23 22:17] [!] [notice] A new release of pip is available: 24.0 -> 24.2
+[2024-08-23 22:17] [!] [notice] To update, run: pip install --upgrade pip
+[2024-08-23 22:17] Install: install script
+[2024-08-23 22:17] 
+## ComfyUI-Manager: EXECUTE => ['/Library/Frameworks/Python.framework/Versions/3.11/bin/python3.11', 'install.py']
+[!] 
+[2024-08-23 22:17] [!] [bold yellow]WARN: The `COMFYUI_PATH` environment variable is not set. Assuming `/Users/blax360/AI/ComfyUI/custom_nodes/ComfyUI-Impact-Pack/../../` as the ComfyUI path.[/bold yellow]
+[2024-08-23 22:17] [!] 
+[2024-08-23 22:17] [!] [bold yellow]WARN: The `COMFYUI_MODEL_PATH` environment variable is not set. Assuming `/Users/blax360/AI/ComfyUI/models` as the ComfyUI path.[/bold yellow]
+[2024-08-23 22:17] [!] 
+[2024-08-23 22:17] [!] [notice] A new release of pip is available: 24.0 -> 24.2
+[2024-08-23 22:17] [!] [notice] To update, run: pip install --upgrade pip
+[2024-08-23 22:17] [2024-08-23 22:17] 
+## ComfyUI-Manager: EXECUTE => ['/Library/Frameworks/Python.framework/Versions/3.11/bin/python3.11', '-m', 'pip', 'install', 'opencv-python>=4.7.0.72']
+[!] 
+[2024-08-23 22:17] [!] [notice] A new release of pip is available: 24.0 -> 24.2
+[2024-08-23 22:17] [!] [notice] To update, run: pip install --upgrade pip
+[2024-08-23 22:17] [2024-08-23 22:17] 
+## ComfyUI-Manager: EXECUTE => ['/Library/Frameworks/Python.framework/Versions/3.11/bin/python3.11', '-m', 'pip', 'install', 'typing-extensions']
+[2024-08-23 22:17]    [2KUpdating: /Users/blax360/AI/ComfyUI/custom_nodes/masquerade-nodes-comfyui[!] 
+[2024-08-23 22:17] [!] [notice] A new release of pip is available: 24.0 -> 24.2
+[2024-08-23 22:17] [!] [notice] To update, run: pip install --upgrade pip
+[2024-08-23 22:17] 
+## ComfyUI-Manager: EXECUTE => ['/Library/Frameworks/Python.framework/Versions/3.11/bin/python3.11', '-m', 'pip', 'install', 'filelock']
+[!] 
+[2024-08-23 22:17] [!] [notice] A new release of pip is available: 24.0 -> 24.2
+[2024-08-23 22:17] [!] [notice] To update, run: pip install --upgrade pip
+[2024-08-23 22:17] [2024-08-23 22:17] [2KUpdated: /Users/blax360/AI/ComfyUI/custom_nodes/ComfyUI-Manager
+[2024-08-23 22:17] [2KUpdating: /Users/blax360/AI/ComfyUI/custom_nodes/ComfyUI-Image-Selector [2KUpdating: /Users/blax360/AI/ComfyUI/custom_nodes/ComfyUI-Custom-Scripts[2KUpdating: /Users/blax360/AI/ComfyUI/custom_nodes/ComfyUI_tinyterraNodes[!] 
+[2024-08-23 22:18] [!] [notice] A new release of pip is available: 24.0 -> 24.2
+[2024-08-23 22:18] [!] [notice] To update, run: pip install --upgrade pip
+[2024-08-23 22:18] 
+## ComfyUI-Manager: EXECUTE => ['/Library/Frameworks/Python.framework/Versions/3.11/bin/python3.11', '-m', 'pip', 'install', 'numpy']
+[2024-08-23 22:18]  [!] 
+[2024-08-23 22:18] [!] [notice] A new release of pip is available: 24.0 -> 24.2
+[2024-08-23 22:18] [!] [notice] To update, run: pip install --upgrade pip
+[2024-08-23 22:18] [2KUpdated: /Users/blax360/AI/ComfyUI/custom_nodes/ComfyUI-Custom-Scripts
+[2024-08-23 22:18] [2KUpdating: /Users/blax360/AI/ComfyUI/custom_nodes/ComfyUI_UltimateSDUpscale[!] 
+[2024-08-23 22:18] [!] [notice] A new release of pip is available: 24.0 -> 24.2
+[2024-08-23 22:18] [!] [notice] To update, run: pip install --upgrade pip
+[2024-08-23 22:18] 
+## ComfyUI-Manager: EXECUTE => ['/Library/Frameworks/Python.framework/Versions/3.11/bin/python3.11', '-m', 'pip', 'install', 'Pillow']
+[2024-08-23 22:18]  ### ComfyUI-Impact-Pack: Check dependencies
+[2024-08-23 22:18]  ### ComfyUI-Impact-Pack: Updating subpack
+[2024-08-23 22:18]  [Impact Pack] EXECUTE: ['/Library/Frameworks/Python.framework/Versions/3.11/bin/python3.11', 'install.py'] in '/Users/blax360/AI/ComfyUI/custom_nodes/ComfyUI-Impact-Pack/impact_subpack'
+[2024-08-23 22:18]  req_path: /Users/blax360/AI/ComfyUI/custom_nodes/ComfyUI-Impact-Pack/impact_subpack/requirements.txt
+[2024-08-23 22:18]  req_path: /Users/blax360/AI/ComfyUI/custom_nodes/ComfyUI-Impact-Pack/impact_subpack/requirements.txt
+[2024-08-23 22:18]  req_path: /Users/blax360/AI/ComfyUI/custom_nodes/ComfyUI-Impact-Pack/requirements.txt
+[2024-08-23 22:18]  ### ComfyUI-Impact-Pack: Check basic models
+[2024-08-23 22:18] [2KUpdated: /Users/blax360/AI/ComfyUI/custom_nodes/ComfyUI_tinyterraNodes
+[2024-08-23 22:18] [2KUpdating: /Users/blax360/AI/ComfyUI/custom_nodes/ComfyUI-Allor [2KUpdated: /Users/blax360/AI/ComfyUI/custom_nodes/ComfyUI-Impact-Pack
+[2024-08-23 22:18] [2KUpdating: /Users/blax360/AI/ComfyUI/custom_nodes/comfy_mtb[2KUpdating: /Users/blax360/AI/ComfyUI/custom_nodes/ComfyUI_Comfyroll_CustomNodes[2KUpdating: /Users/blax360/AI/ComfyUI/custom_nodes/ComfyUI_FizzNodes[!] 
+[2024-08-23 22:18] [!] [notice] A new release of pip is available: 24.0 -> 24.2
+[2024-08-23 22:18] [!] [notice] To update, run: pip install --upgrade pip
+[2024-08-23 22:18] 
+## ComfyUI-Manager: EXECUTE => ['/Library/Frameworks/Python.framework/Versions/3.11/bin/python3.11', '-m', 'pip', 'install', 'einops']
+[2024-08-23 22:18]  [2KUpdating: /Users/blax360/AI/ComfyUI/custom_nodes/ComfyUI_smZNodes[2KUpdating: /Users/blax360/AI/ComfyUI/custom_nodes/ComfyUI_IPAdapter_plusInstall: pip packages
+[2024-08-23 22:18] 
+## ComfyUI-Manager: EXECUTE => ['/Library/Frameworks/Python.framework/Versions/3.11/bin/python3.11', '-m', 'pip', 'install', 'qrcode[pil]']
+[!] 
+[2024-08-23 22:18] [!] [notice] A new release of pip is available: 24.0 -> 24.2
+[2024-08-23 22:18] [!] [notice] To update, run: pip install --upgrade pip
+[2024-08-23 22:18] [2024-08-23 22:18] [ComfyUI-Manager] skip black listed pip installation: 'torchvision'
+[2024-08-23 22:18] 
+## ComfyUI-Manager: EXECUTE => ['/Library/Frameworks/Python.framework/Versions/3.11/bin/python3.11', '-m', 'pip', 'install', 'pyyaml']
+[2024-08-23 22:18]      [2KUpdating: /Users/blax360/AI/ComfyUI/custom_nodes/ComfyUI_InstantID[2KUpdated: /Users/blax360/AI/ComfyUI/custom_nodes/ComfyUI_smZNodes
+[2024-08-23 22:18] [2KUpdating: /Users/blax360/AI/ComfyUI/custom_nodes/comfyui-art-venture[!] 
+[2024-08-23 22:18] [!] [notice] A new release of pip is available: 24.0 -> 24.2
+[2024-08-23 22:18] [!] [notice] To update, run: pip install --upgrade pip
+[2024-08-23 22:18] 
+## ComfyUI-Manager: EXECUTE => ['/Library/Frameworks/Python.framework/Versions/3.11/bin/python3.11', '-m', 'pip', 'install', 'onnxruntime-gpu']
+[!] 
+[2024-08-23 22:18] [!] [notice] A new release of pip is available: 24.0 -> 24.2
+[2024-08-23 22:18] [!] [notice] To update, run: pip install --upgrade pip
+[2024-08-23 22:18] [2024-08-23 22:18] 
+## ComfyUI-Manager: EXECUTE => ['/Library/Frameworks/Python.framework/Versions/3.11/bin/python3.11', '-m', 'pip', 'install', 'scikit-image']
+[2024-08-23 22:18]           [!] ERROR: Could not find a version that satisfies the requirement onnxruntime-gpu (from versions: none)
+[2024-08-23 22:18] [!] ERROR: No matching distribution found for onnxruntime-gpu
+[2024-08-23 22:18] [2KUpdating: /Users/blax360/AI/ComfyUI/custom_nodes/comfyui-animatediff[2KUpdating: /Users/blax360/AI/ComfyUI/custom_nodes/sdxl_prompt_styler[!] 
+[2024-08-23 22:18] [!] [notice] A new release of pip is available: 24.0 -> 24.2
+[2024-08-23 22:18] [!] [notice] To update, run: pip install --upgrade pip
+[2024-08-23 22:18] install script failed: /Users/blax360/AI/ComfyUI/custom_nodes
+[2024-08-23 22:18] 
+## ComfyUI-Manager: EXECUTE => ['/Library/Frameworks/Python.framework/Versions/3.11/bin/python3.11', '-m', 'pip', 'install', 'requirements-parser']
+[2024-08-23 22:18]   [!] 
+[2024-08-23 22:18] [!] [notice] A new release of pip is available: 24.0 -> 24.2
+[2024-08-23 22:18] [!] [notice] To update, run: pip install --upgrade pip
+[2024-08-23 22:18] 
+## ComfyUI-Manager: EXECUTE => ['/Library/Frameworks/Python.framework/Versions/3.11/bin/python3.11', '-m', 'pip', 'install', 'python-dateutil']
+[2024-08-23 22:18] [2KUpdating: /Users/blax360/AI/ComfyUI/custom_nodes/ComfyUI-Advanced-ControlNet[2KUpdating: /Users/blax360/AI/ComfyUI/custom_nodes/ComfyUI-AnimateDiff-Evolved  [!] 
+[2024-08-23 22:18] [!] [notice] A new release of pip is available: 24.0 -> 24.2
+[2024-08-23 22:18] [!] [notice] To update, run: pip install --upgrade pip
+[2024-08-23 22:18] 
+## ComfyUI-Manager: EXECUTE => ['/Library/Frameworks/Python.framework/Versions/3.11/bin/python3.11', '-m', 'pip', 'install', 'rembg']
+[2024-08-23 22:18]                                    [!] 
+[2024-08-23 22:18] [!] [notice] A new release of pip is available: 24.0 -> 24.2
+[2024-08-23 22:18] [!] [notice] To update, run: pip install --upgrade pip
+[2024-08-23 22:18] 
+## ComfyUI-Manager: EXECUTE => ['/Library/Frameworks/Python.framework/Versions/3.11/bin/python3.11', '-m', 'pip', 'install', 'mediapipe']
+[2024-08-23 22:18]                     [!] 
+[2024-08-23 22:18] [!] [notice] A new release of pip is available: 24.0 -> 24.2
+[2024-08-23 22:18] [!] [notice] To update, run: pip install --upgrade pip
+[2024-08-23 22:18] 
+## ComfyUI-Manager: EXECUTE => ['/Library/Frameworks/Python.framework/Versions/3.11/bin/python3.11', '-m', 'pip', 'install', 'imageio_ffmpeg']
+[2024-08-23 22:18]   [2KUpdated: /Users/blax360/AI/ComfyUI/custom_nodes/ComfyUI-Advanced-ControlNet
+[2024-08-23 22:18] [2KUpdating: /Users/blax360/AI/ComfyUI/custom_nodes/ComfyUI-VideoHelperSuite[!] 
+[2024-08-23 22:18] [!] [notice] A new release of pip is available: 24.0 -> 24.2
+[2024-08-23 22:18] [!] [notice] To update, run: pip install --upgrade pip
+[2024-08-23 22:18] 
+## ComfyUI-Manager: EXECUTE => ['/Library/Frameworks/Python.framework/Versions/3.11/bin/python3.11', '-m', 'pip', 'install', 'svglib']
+[2024-08-23 22:18]        [!] 
+[2024-08-23 22:18] [!] [notice] A new release of pip is available: 24.0 -> 24.2
+[2024-08-23 22:18] [!] [notice] To update, run: pip install --upgrade pip
+[2024-08-23 22:18] 
+## ComfyUI-Manager: EXECUTE => ['/Library/Frameworks/Python.framework/Versions/3.11/bin/python3.11', '-m', 'pip', 'install', 'rich']
+[2024-08-23 22:18] [2KUpdated: /Users/blax360/AI/ComfyUI/custom_nodes/ComfyUI-AnimateDiff-Evolved
+[2024-08-23 22:18] [2KUpdating: /Users/blax360/AI/ComfyUI/custom_nodes/comfyui-reactor-node    [!] 
+[2024-08-23 22:18] [!] [notice] A new release of pip is available: 24.0 -> 24.2
+[2024-08-23 22:18] [!] [notice] To update, run: pip install --upgrade pip
+[2024-08-23 22:18] 
+## ComfyUI-Manager: EXECUTE => ['/Library/Frameworks/Python.framework/Versions/3.11/bin/python3.11', '-m', 'pip', 'install', 'fvcore']
+[2024-08-23 22:18]            [2KUpdating: /Users/blax360/AI/ComfyUI/custom_nodes/ComfyUI-Eagle-PNGInfoInstall: pip packages
+[2024-08-23 22:18] 
+## ComfyUI-Manager: EXECUTE => ['/Library/Frameworks/Python.framework/Versions/3.11/bin/python3.11', '-m', 'pip', 'install', 'opencv-python']
+[!] 
+[2024-08-23 22:18] [!] [notice] A new release of pip is available: 24.0 -> 24.2
+[2024-08-23 22:18] [!] [notice] To update, run: pip install --upgrade pip
+[2024-08-23 22:18] [2024-08-23 22:18] 
+## ComfyUI-Manager: EXECUTE => ['/Library/Frameworks/Python.framework/Versions/3.11/bin/python3.11', '-m', 'pip', 'install', 'rich_argparse']
+[2024-08-23 22:18]        [!] 
+[2024-08-23 22:18] [!] [notice] A new release of pip is available: 24.0 -> 24.2
+[2024-08-23 22:18] [!] [notice] To update, run: pip install --upgrade pip
+[2024-08-23 22:18] 
+## ComfyUI-Manager: EXECUTE => ['/Library/Frameworks/Python.framework/Versions/3.11/bin/python3.11', '-m', 'pip', 'install', 'yapf']
+[2024-08-23 22:18] [2KUpdating: /Users/blax360/AI/ComfyUI/custom_nodes/rgthree-comfy     [!] 
+[2024-08-23 22:18] [!] [notice] A new release of pip is available: 24.0 -> 24.2
+[2024-08-23 22:18] [!] [notice] To update, run: pip install --upgrade pip
+[2024-08-23 22:18] 
+## ComfyUI-Manager: EXECUTE => ['/Library/Frameworks/Python.framework/Versions/3.11/bin/python3.11', '-m', 'pip', 'install', 'imageio-ffmpeg']
+[!] 
+[2024-08-23 22:18] [!] [notice] A new release of pip is available: 24.0 -> 24.2
+[2024-08-23 22:18] [!] [notice] To update, run: pip install --upgrade pip
+[2024-08-23 22:18] [2024-08-23 22:18] 
+## ComfyUI-Manager: EXECUTE => ['/Library/Frameworks/Python.framework/Versions/3.11/bin/python3.11', '-m', 'pip', 'install', 'matplotlib']
+[2024-08-23 22:18]              [!] 
+[2024-08-23 22:18] [!] [notice] A new release of pip is available: 24.0 -> 24.2
+[2024-08-23 22:18] [!] [notice] To update, run: pip install --upgrade pip
+[2024-08-23 22:18] 
+## ComfyUI-Manager: EXECUTE => ['/Library/Frameworks/Python.framework/Versions/3.11/bin/python3.11', '-m', 'pip', 'install', 'omegaconf']
+[2024-08-23 22:18]    [!] 
+[2024-08-23 22:18] [!] [notice] A new release of pip is available: 24.0 -> 24.2
+[2024-08-23 22:18] [!] [notice] To update, run: pip install --upgrade pip
+[2024-08-23 22:18] [2KUpdated: /Users/blax360/AI/ComfyUI/custom_nodes/ComfyUI-VideoHelperSuite
+[2024-08-23 22:18] [2KUpdating: /Users/blax360/AI/ComfyUI/custom_nodes/comfy-image-saver[!] 
+[2024-08-23 22:18] [!] [notice] A new release of pip is available: 24.0 -> 24.2
+[2024-08-23 22:18] [!] [notice] To update, run: pip install --upgrade pip
+[2024-08-23 22:18] 
+## ComfyUI-Manager: EXECUTE => ['/Library/Frameworks/Python.framework/Versions/3.11/bin/python3.11', '-m', 'pip', 'install', 'pillow']
+[2024-08-23 22:18]  Install: pip packages
+[2024-08-23 22:18] [2KUpdated: /Users/blax360/AI/ComfyUI/custom_nodes/rgthree-comfy
+[2024-08-23 22:18] [2KUpdating: /Users/blax360/AI/ComfyUI/custom_nodes/ComfyUI-N-Nodes[!] 
+[2024-08-23 22:18] [!] [notice] A new release of pip is available: 24.0 -> 24.2
+[2024-08-23 22:18] [!] [notice] To update, run: pip install --upgrade pip
+[2024-08-23 22:18] 
+## ComfyUI-Manager: EXECUTE => ['/Library/Frameworks/Python.framework/Versions/3.11/bin/python3.11', '-m', 'pip', 'install', 'ftfy']
+[2024-08-23 22:18] [2KUpdating: /Users/blax360/AI/ComfyUI/custom_nodes/canvas_tab  [!] 
+[2024-08-23 22:18] [!] [notice] A new release of pip is available: 24.0 -> 24.2
+[2024-08-23 22:18] [!] [notice] To update, run: pip install --upgrade pip
+[2024-08-23 22:18] Install: install script
+[2024-08-23 22:18] 
+## ComfyUI-Manager: EXECUTE => ['/Library/Frameworks/Python.framework/Versions/3.11/bin/python3.11', 'install.py']
+[2024-08-23 22:18]  [33m[1m[mtb install] [0m[0m [33m[3mmtb doesn't need an install script anymore.[0m[0m
+[2024-08-23 22:18] [2KUpdated: /Users/blax360/AI/ComfyUI/custom_nodes/comfy_mtb
+[2024-08-23 22:18] [2KUpdating: /Users/blax360/AI/ComfyUI/custom_nodes/ComfyUI_essentials[2KUpdating: /Users/blax360/AI/ComfyUI/custom_nodes/ComfyUI-KJNodes[!] 
+[2024-08-23 22:18] [!] [notice] A new release of pip is available: 24.0 -> 24.2
+[2024-08-23 22:18] [!] [notice] To update, run: pip install --upgrade pip
+[2024-08-23 22:18] 
+## ComfyUI-Manager: EXECUTE => ['/Library/Frameworks/Python.framework/Versions/3.11/bin/python3.11', '-m', 'pip', 'install', 'addict']
+[2024-08-23 22:18]  Install: pip packages
+[2024-08-23 22:18] 
+## ComfyUI-Manager: EXECUTE => ['/Library/Frameworks/Python.framework/Versions/3.11/bin/python3.11', '-m', 'pip', 'install', 'py-cpuinfo']
+[!] 
+[2024-08-23 22:18] [!] [notice] A new release of pip is available: 24.0 -> 24.2
+[2024-08-23 22:18] [!] [notice] To update, run: pip install --upgrade pip
+[2024-08-23 22:18] [2024-08-23 22:18] 
+## ComfyUI-Manager: EXECUTE => ['/Library/Frameworks/Python.framework/Versions/3.11/bin/python3.11', '-m', 'pip', 'install', 'yacs']
+[2024-08-23 22:18]  Install: pip packages
+[2024-08-23 22:18] 
+## ComfyUI-Manager: EXECUTE => ['/Library/Frameworks/Python.framework/Versions/3.11/bin/python3.11', '-m', 'pip', 'install', 'numba']
+[2024-08-23 22:18]      [!] 
+[2024-08-23 22:18] [!] [notice] A new release of pip is available: 24.0 -> 24.2
+[2024-08-23 22:18] [!] [notice] To update, run: pip install --upgrade pip
+[2024-08-23 22:18] 
+## ComfyUI-Manager: EXECUTE => ['/Library/Frameworks/Python.framework/Versions/3.11/bin/python3.11', '-m', 'pip', 'install', 'gitpython']
+[2024-08-23 22:18] Install: pip packages
+[2024-08-23 22:18] 
+## ComfyUI-Manager: EXECUTE => ['/Library/Frameworks/Python.framework/Versions/3.11/bin/python3.11', '-m', 'pip', 'install', 'pillow>=10.3.0']
+[!] 
+[2024-08-23 22:18] [!] [notice] A new release of pip is available: 24.0 -> 24.2
+[2024-08-23 22:18] [!] [notice] To update, run: pip install --upgrade pip
+[2024-08-23 22:18] [2024-08-23 22:18] 
+## ComfyUI-Manager: EXECUTE => ['/Library/Frameworks/Python.framework/Versions/3.11/bin/python3.11', '-m', 'pip', 'install', 'trimesh[easy]']
+[2024-08-23 22:18]    [!] 
+[2024-08-23 22:18] [!] [notice] A new release of pip is available: 24.0 -> 24.2
+[2024-08-23 22:18] [!] [notice] To update, run: pip install --upgrade pip
+[2024-08-23 22:18] 
+## ComfyUI-Manager: EXECUTE => ['/Library/Frameworks/Python.framework/Versions/3.11/bin/python3.11', '-m', 'pip', 'install', 'colour-science']
+[2024-08-23 22:18]                               Collecting pillow>=10.3.0
+[2024-08-23 22:18]       Downloading pillow-10.4.0-cp311-cp311-macosx_11_0_arm64.whl.metadata (9.2 kB)
+[2024-08-23 22:18]     Downloading pillow-10.4.0-cp311-cp311-macosx_11_0_arm64.whl (3.4 MB)
+[2024-08-23 22:18] [!] 
+[2024-08-23 22:18] [!] [notice] A new release of pip is available: 24.0 -> 24.2
+[2024-08-23 22:18] [!] [notice] To update, run: pip install --upgrade pip
+[2024-08-23 22:18] 
+## ComfyUI-Manager: EXECUTE => ['/Library/Frameworks/Python.framework/Versions/3.11/bin/python3.11', '-m', 'pip', 'install', 'moviepy']
+[2024-08-23 22:18]  [!] 
+[2024-08-23 22:18] [!] [notice] A new release of pip is available: 24.0 -> 24.2
+[2024-08-23 22:18] [!] [notice] To update, run: pip install --upgrade pip
+[2024-08-23 22:18]              
+## ComfyUI-Manager: EXECUTE => ['/Library/Frameworks/Python.framework/Versions/3.11/bin/python3.11', '-m', 'pip', 'install', 'albumentations']
+[2024-08-23 22:18]     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 3.4/3.4 MB 3.9 MB/s eta 0:00:00
+[2024-08-23 22:18] [!] 
+[2024-08-23 22:18] [!] [notice] A new release of pip is available: 24.0 -> 24.2
+[2024-08-23 22:18] [!] [notice] To update, run: pip install --upgrade pip
+[2024-08-23 22:18] 
+## ComfyUI-Manager: EXECUTE => ['/Library/Frameworks/Python.framework/Versions/3.11/bin/python3.11', '-m', 'pip', 'install', 'rembg']
+[2024-08-23 22:18]                                                       Installing collected packages: pillow
+[2024-08-23 22:18]    Attempting uninstall: pillow
+[2024-08-23 22:18] [!] 
+[2024-08-23 22:18] [!] [notice] A new release of pip is available: 24.0 -> 24.2
+[2024-08-23 22:18] [!] [notice] To update, run: pip install --upgrade pip
+[2024-08-23 22:18]      Found existing installation: Pillow 9.5.0
+[2024-08-23 22:18]      Uninstalling Pillow-9.5.0:
+[2024-08-23 22:18]        Successfully uninstalled Pillow-9.5.0
+[2024-08-23 22:18] [!] WARNING: Skipping /Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/Pillow-9.5.0.dist-info due to invalid metadata entry 'name'
+[2024-08-23 22:18] 
+## ComfyUI-Manager: EXECUTE => ['/Library/Frameworks/Python.framework/Versions/3.11/bin/python3.11', '-m', 'pip', 'install', 'opencv-python']
+[!][2024-08-23 22:18]  ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.
+ [2024-08-23 22:18] Successfully installed pillow-10.4.0
+[!][2024-08-23 22:18]  img2texture 1.0.6 requires pillow<10,>=9.2, but you have pillow 10.4.0 which is incompatible.
+[2024-08-23 22:18] [!] 
+[2024-08-23 22:18] [!] [notice] A new release of pip is available: 24.0 -> 24.2
+[2024-08-23 22:18] [!] [notice] To update, run: pip install --upgrade pip
+[2024-08-23 22:18] 
+## ComfyUI-Manager: EXECUTE => ['/Library/Frameworks/Python.framework/Versions/3.11/bin/python3.11', '-m', 'pip', 'install', 'scipy']
+[2024-08-23 22:18]   [!] 
+[2024-08-23 22:18] [!] [notice] A new release of pip is available: 24.0 -> 24.2
+[2024-08-23 22:18] [!] [notice] To update, run: pip install --upgrade pip
+[2024-08-23 22:18] 
+## ComfyUI-Manager: EXECUTE => ['/Library/Frameworks/Python.framework/Versions/3.11/bin/python3.11', '-m', 'pip', 'install', 'scikit-learn']
+[2024-08-23 22:18]   [!] 
+[2024-08-23 22:18] [!] [notice] A new release of pip is available: 24.0 -> 24.2
+[2024-08-23 22:18] [!] [notice] To update, run: pip install --upgrade pip
+[2024-08-23 22:18] 
+## ComfyUI-Manager: EXECUTE => ['/Library/Frameworks/Python.framework/Versions/3.11/bin/python3.11', '-m', 'pip', 'install', 'pixeloe']
+[2024-08-23 22:18]          [!] 
+[2024-08-23 22:18] [!] [notice] A new release of pip is available: 24.0 -> 24.2
+[2024-08-23 22:18] [!] [notice] To update, run: pip install --upgrade pip
+[2024-08-23 22:18] 
+## ComfyUI-Manager: EXECUTE => ['/Library/Frameworks/Python.framework/Versions/3.11/bin/python3.11', '-m', 'pip', 'install', 'scikit-build']
+[!] 
+[2024-08-23 22:18] [!] [notice] A new release of pip is available: 24.0 -> 24.2
+[2024-08-23 22:18] [!] [notice] To update, run: pip install --upgrade pip
+[2024-08-23 22:18] [2024-08-23 22:18] 
+## ComfyUI-Manager: EXECUTE => ['/Library/Frameworks/Python.framework/Versions/3.11/bin/python3.11', '-m', 'pip', 'install', 'color-matcher']
+[2024-08-23 22:18]      [!] 
+[2024-08-23 22:18] [!] [notice] A new release of pip is available: 24.0 -> 24.2
+[2024-08-23 22:18] [!] [notice] To update, run: pip install --upgrade pip
+[2024-08-23 22:18] [2KUpdated: /Users/blax360/AI/ComfyUI/custom_nodes/comfyui_controlnet_aux
+[2024-08-23 22:18] [2KUpdating: /Users/blax360/AI/ComfyUI/custom_nodes/ComfyUI-Stable-Video-Diffusion      [!] 
+[2024-08-23 22:18] [!] [notice] A new release of pip is available: 24.0 -> 24.2
+[2024-08-23 22:18] [!] [notice] To update, run: pip install --upgrade pip
+[2024-08-23 22:18] 
+## ComfyUI-Manager: EXECUTE => ['/Library/Frameworks/Python.framework/Versions/3.11/bin/python3.11', '-m', 'pip', 'install', 'transparent-background']
+[2024-08-23 22:18]                                                                      [!] 
+[2024-08-23 22:18] [!] [notice] A new release of pip is available: 24.0 -> 24.2
+[2024-08-23 22:18] [!] [notice] To update, run: pip install --upgrade pip
+[2024-08-23 22:18]  
+## ComfyUI-Manager: EXECUTE => ['/Library/Frameworks/Python.framework/Versions/3.11/bin/python3.11', '-m', 'pip', 'install', 'typing']
+[2024-08-23 22:18]        [2KUpdating: /Users/blax360/AI/ComfyUI/custom_nodes/ComfyUI-SegMoE            [!] 
+[2024-08-23 22:18] [!] [notice] A new release of pip is available: 24.0 -> 24.2
+[2024-08-23 22:18] [!] [notice] To update, run: pip install --upgrade pip
+[2024-08-23 22:18] 
+## ComfyUI-Manager: EXECUTE => ['/Library/Frameworks/Python.framework/Versions/3.11/bin/python3.11', '-m', 'pip', 'install', 'matplotlib']
+[2024-08-23 22:18]             [!] 
+[2024-08-23 22:18] [!] [notice] A new release of pip is available: 24.0 -> 24.2
+[2024-08-23 22:18] [!] [notice] To update, run: pip install --upgrade pip
+[2024-08-23 22:18] [2KUpdated: /Users/blax360/AI/ComfyUI/custom_nodes/ComfyUI_essentials
+[2024-08-23 22:18] [2KUpdating: /Users/blax360/AI/ComfyUI/custom_nodes/Comfyui-Yolov8[!] 
+[2024-08-23 22:18] [!] [notice] A new release of pip is available: 24.0 -> 24.2
+[2024-08-23 22:18] [!] [notice] To update, run: pip install --upgrade pip
+[2024-08-23 22:18] 
+## ComfyUI-Manager: EXECUTE => ['/Library/Frameworks/Python.framework/Versions/3.11/bin/python3.11', '-m', 'pip', 'install', 'diskcache']
+[2024-08-23 22:18] [2KUpdating: /Users/blax360/AI/ComfyUI/custom_nodes/ComfyUI-Flowty-LDSR[!] 
+[2024-08-23 22:18] [!] [notice] A new release of pip is available: 24.0 -> 24.2
+[2024-08-23 22:18] [!] [notice] To update, run: pip install --upgrade pip
+[2024-08-23 22:18]  
+## ComfyUI-Manager: EXECUTE => ['/Library/Frameworks/Python.framework/Versions/3.11/bin/python3.11', '-m', 'pip', 'install', 'huggingface_hub']
+[2024-08-23 22:18]             [2KUpdating: /Users/blax360/AI/ComfyUI/custom_nodes/comfyui-propost[2KUpdating: /Users/blax360/AI/ComfyUI/custom_nodes/ComfyUI-Anyline[!] 
+[2024-08-23 22:18] [!] [notice] A new release of pip is available: 24.0 -> 24.2
+[2024-08-23 22:18] [!] [notice] To update, run: pip install --upgrade pip
+[2024-08-23 22:18] [2KUpdated: /Users/blax360/AI/ComfyUI/custom_nodes/ComfyUI-N-Nodes
+[!] 
+[2024-08-23 22:18] [!] [notice] A new release of pip is available: 24.0 -> 24.2
+[2024-08-23 22:18] [!] [notice] To update, run: pip install --upgrade pip
+[2024-08-23 22:18] [2024-08-23 22:18] 
+## ComfyUI-Manager: EXECUTE => ['/Library/Frameworks/Python.framework/Versions/3.11/bin/python3.11', '-m', 'pip', 'install', 'mss']
+[2024-08-23 22:18]  [!] 
+[2024-08-23 22:18] [!] [notice] A new release of pip is available: 24.0 -> 24.2
+[2024-08-23 22:18] [!] [notice] To update, run: pip install --upgrade pip
+[2024-08-23 22:18] 
+## ComfyUI-Manager: EXECUTE => ['/Library/Frameworks/Python.framework/Versions/3.11/bin/python3.11', '-m', 'pip', 'install', 'opencv-python']
+[2024-08-23 22:18]   [!] 
+[2024-08-23 22:18] [!] [notice] A new release of pip is available: 24.0 -> 24.2
+[2024-08-23 22:18] [!] [notice] To update, run: pip install --upgrade pip
+[2024-08-23 22:18] [2KUpdated: /Users/blax360/AI/ComfyUI/custom_nodes/ComfyUI-KJNodes
+[2024-08-23 22:18] [2KUpdate done.
