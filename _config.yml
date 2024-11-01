@@ -3,6 +3,7 @@ email: blax360.com@gmail.com
 description: Director · Creator · Showrunner
 baseurl: ""
 url: "https://blax360.com"
+branch: gh-pages
 
 markdown: kramdown
 plugins:
