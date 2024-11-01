@@ -1,0 +1,115 @@
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const startBtn = document.getElementById('start-btn');
+        const overlayStartBtn = document.getElementById('overlay-start-btn');
+        const startOverlay = document.querySelector('.start-overlay');
+        const loadingBar = document.querySelector('.loading-bar');
+        const loadingProgress = document.querySelector('.loading-progress');
+        const header = document.querySelector('header');
+        const sections = document.querySelectorAll('section');
+        const footer = document.querySelector('footer');
+        const scanline = document.querySelector('.scanline');
+        const crtEffect = document.querySelector('.crt-effect');
+
+        // Función para crear sonido de inicio
+        function playStartupSound() {
+            const audioContext = new (window.AudioContext || window.webkitAudioContext)();
+            
+            // Secuencia de sonidos
+            const sounds = [
+                { frequency: 220, duration: 100, gain: 0.1 },
+                { frequency: 440, duration: 100, gain: 0.1 },
+                { frequency: 880, duration: 200, gain: 0.1 }
+            ];
+
+            sounds.forEach((sound, index) => {
+                setTimeout(() => {
+                    const oscillator = audioContext.createOscillator();
+                    const gainNode = audioContext.createGain();
+                    
+                    oscillator.connect(gainNode);
+                    gainNode.connect(audioContext.destination);
+                    
+                    oscillator.type = 'square';
+                    oscillator.frequency.setValueAtTime(sound.frequency, audioContext.currentTime);
+                    gainNode.gain.setValueAtTime(sound.gain, audioContext.currentTime);
+                    
+                    oscillator.start();
+                    oscillator.stop(audioContext.currentTime + sound.duration / 1000);
+                }, index * 150);
+            });
+        }
+
+        function startSite() {
+            // Mostrar barra de carga
+            loadingBar.style.display = 'block';
+            
+            // Reproducir sonido de inicio
+            playStartupSound();
+
+            // Animación de carga gradual
+            let progress = 0;
+            const loadingInterval = setInterval(() => {
+                progress += 1;
+                loadingProgress.style.width = `${progress}%`;
+                
+                // Reproducir pequeño beep en ciertos porcentajes
+                if (progress % 25 === 0) {
+                    const audioContext = new (window.AudioContext || window.webkitAudioContext)();
+                    const oscillator = audioContext.createOscillator();
+                    const gainNode = audioContext.createGain();
+                    
+                    oscillator.connect(gainNode);
+                    gainNode.connect(audioContext.destination);
+                    
+                    oscillator.type = 'square';
+                    oscillator.frequency.setValueAtTime(660, audioContext.currentTime);
+                    gainNode.gain.setValueAtTime(0.05, audioContext.currentTime);
+                    
+                    oscillator.start();
+                    oscillator.stop(audioContext.currentTime + 0.05);
+                }
+
+                if (progress >= 100) {
+                    clearInterval(loadingInterval);
+                    setTimeout(() => {
+                        startOverlay.classList.add('hidden');
+                        header.classList.add('visible');
+                        scanline.classList.add('visible');
+                        crtEffect.classList.add('visible');
+                        
+                        sections.forEach((section, index) => {
+                            setTimeout(() => {
+                                section.classList.add('visible');
+                            }, index * 200);
+                        });
+                        
+                        setTimeout(() => {
+                            footer.classList.add('visible');
+                        }, sections.length * 200);
+                    }, 500);
+                }
+            }, 20);
+        }
+
+        // Event listeners para ambos botones
+        startBtn.addEventListener('click', startSite);
+        overlayStartBtn.addEventListener('click', startSite);
+
+        // Animación de sprites
+        function createRandomMovement(element) {
+            if (!element) return;
+            
+            setInterval(() => {
+                const randomX = Math.random() * 20 - 10;
+                const randomY = Math.random() * 20 - 10;
+                element.style.transform = `translate(${randomX}px, ${randomY}px)`;
+            }, 2000);
+        }
+
+        // Aplicar movimiento aleatorio a todos los sprites
+        document.querySelectorAll('.space-invader, .pacman, .ghost').forEach(sprite => {
+            createRandomMovement(sprite);
+        });
+    });
+</script>

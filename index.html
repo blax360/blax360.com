@@ -1,31 +1,154 @@
 ---
 layout: default
-title: Inicio
+title: Home
 ---
 
-<section id="showcase" style="background: url('{{ '/images/showcase.webp' | relative_url }}') no-repeat center; background-size: cover;">
+<div class="start-overlay">
+    <h1 style="color: var(--neon-pink);">PRESS START</h1>
+    <button class="btn" id="overlay-start-btn">PRESS START</button>
+    <div class="loading-bar">
+        <div class="loading-progress"></div>
+    </div>
+</div>
+<div class="scanline"></div>
+<div class="crt-effect"></div>
+
+<section class="hero" id="home">
+    <div class="hero-sprites">
+        <div class="space-invader" style="top: 20%; left: 10%"></div>
+        <div class="space-invader" style="top: 30%; right: 15%"></div>
+        <div class="pacman" style="bottom: 20%; left: 20%"></div>
+        <div class="ghost" style="bottom: 30%; right: 25%"></div>
+    </div>
     <div class="container">
-        <h1>Bladimir Salazar</h1>
-        <p>Creando historias, frame a frame</p>
-        <button class="menu-item">Ver mi portafolio</button>
+        <h1 class="animate__animated animate__fadeIn" style="color: var(--neon-yellow);">BLADIMIR SALAZAR</h1>
+        <p class="animate__animated animate__fadeIn animate__delay-1s">DIRECTOR · CREATOR · SHOWRUNNER</p>
+        <button class="btn animate__animated animate__fadeIn animate__delay-2s" id="start-btn">PRESS START</button>
     </div>
 </section>
-<section id="boxes">
+
+<section id="videos">
     <div class="container">
-        <div class="box">
-            <img src="{{ '/images/guiones.webp' | relative_url }}" alt="Guiones">
-            <h3>Guiones</h3>
-            <p>Creando narrativas impactantes</p>
-        </div>
-        <div class="box">
-            <img src="{{ '/images/film.webp' | relative_url }}" alt="Dirección">
-            <h3>Dirección</h3>
-            <p>Videos musicales, documentales y ficción</p>
-        </div>
-        <div class="box">
-            <img src="{{ '/images/vr.webp' | relative_url }}" alt="VR Tenis de Mesa">
-            <h3>VR Tenis de Mesa</h3>
-            <p>Experiencias inmersivas en realidad virtual</p>
+        <h2>ÚLTIMOS VIDEOS</h2>
+        <div class="ghost" style="top: 20px; right: 50px"></div>
+        <div class="grid">
+            <div class="card">
+                <!-- Reemplaza VIDEO_ID_1 con el ID real de tu video de YouTube -->
+                <div class="video-thumbnail">
+                    <img src="https://img.youtube.com/vi/jJbukLS3UWQ/maxresdefault.jpg" alt="Video 1">
+                    <div class="play-button">
+                        <div class="triangle"></div>
+                    </div>
+                </div>
+                <h3>Lucía Jimenez y su guitarra traspuesta </h3>
+                <p>Documental financiado por el Fondo de desarrollo Cultural y las artes.</p>
+                <button class="btn" onclick="window.open('https://www.youtube.com/watch?v=jJbukLS3UWQ', '_blank')">VER VIDEO</button>
+            </div>
+            <div class="card">
+                <!-- Reemplaza VIDEO_ID_1 con el ID real de tu video de YouTube -->
+                <div class="video-thumbnail">
+                    <img src="https://img.youtube.com/vi/R-jFMlGVK80/maxresdefault.jpg" alt="Video 2">
+                    <div class="play-button">
+                        <div class="triangle"></div>
+                    </div>
+                </div>
+                <h3>Explorando el túnel de Los Carrera</h3>
+                <p>Viaje a la historia de la independencia de Chile.</p>
+                <button class="btn" onclick="window.open('https://www.youtube.com/watch?v=R-jFMlGVK80o', '_blank')">VER VIDEO</button>
+            </div>
         </div>
     </div>
 </section>
+<section id="music">
+    <div class="container">
+        <h2>VIDEOS MUSICALES</h2>
+        <div class="pacman" style="top: 40px; left: 30px"></div>
+        <div class="grid">
+            <div class="card">
+                <!-- Reemplaza VIDEO_ID_1 con el ID real de tu video musical de YouTube -->
+                <div class="video-thumbnail">
+                    <img src="https://img.youtube.com/vi/Js05iLleMs4/maxresdefault.jpg" alt="Music Video 1">
+                    <div class="play-button">
+                        <div class="triangle"></div>
+                    </div>
+                </div>
+                <h3>SANGRE ABORIGEN - Para qué?</h3>
+                <p>Mi primer video musical, último trabajo de la universidad.</p>
+                <button class="btn" onclick="window.open('https://www.youtube.com/watch?v=Js05iLleMs4', '_blank')">REPRODUCIR</button>
+            </div>
+            
+            <div class="card">
+                <!-- Reemplaza VIDEO_ID_2 con el ID real de tu video musical de YouTube -->
+                <div class="video-thumbnail">
+                    <img src="https://img.youtube.com/vi/7Md4b6dAa8o/maxresdefault.jpg" alt="Music Video 2">
+                    <div class="play-button">
+                        <div class="triangle"></div>
+                    </div>
+                </div>
+                <h3>LA VOLANTÍN - Testamento</h3>
+                <p>Video musical creado en pandemia a partir de material de archivo.</p>
+                <button class="btn" onclick="window.open('https://www.youtube.com/watch?v=7Md4b6dAa8o', '_blank')">REPRODUCIR</button>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="blog">
+    <div class="container">
+        <h2>BLOG</h2>
+        <div class="space-invader" style="bottom: 30px; right: 40px"></div>
+        <div class="grid">
+            <div class="card">
+                <h3>DETRÁS DE CÁMARAS</h3>
+                <p>Explorando el proceso creativo y la magia detrás de cada producción.</p>
+                <button class="btn">LEER MÁS</button>
+            </div>
+            <div class="card">
+                <h3>TENDENCIAS VISUALES</h3>
+                <p>Análisis de las últimas tendencias en producción audiovisual y contenido digital.</p>
+                <button class="btn">LEER MÁS</button>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="series">
+    <div class="container">
+        <h2>SERIES</h2>
+        <div class="pacman" style="top: 60px; right: 60px"></div>
+        <div class="ghost" style="bottom: 40px; left: 40px"></div>
+        <div class="grid">
+            <div class="card">
+                <img src="/api/placeholder/300/200" alt="Serie">
+                <h3>NOMBRE DE LA SERIE</h3>
+                <p>Una nueva serie que desafía los límites de la narrativa convencional.</p>
+                <button class="btn">VER TRAILER</button>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="contact">
+    <div class="container">
+        <h2>CONTACTO</h2>
+        <div class="space-invader" style="top: 30px; left: 50px"></div>
+        <div class="card">
+            <form>
+                <input 
+                    type="text" 
+                    placeholder="NOMBRE" 
+                    style="width: 100%; margin: 10px 0; padding: 10px; background: transparent; border: 2px solid var(--neon-blue); color: var(--neon-blue);">
+                <input 
+                    type="email" 
+                    placeholder="EMAIL" 
+                    value="blax360.com@gmail.com" 
+                    readonly 
+                    style="width: 100%; margin: 10px 0; padding: 10px; background: transparent; border: 2px solid var(--neon-blue); color: var(--neon-blue);">
+                <textarea 
+                    placeholder="MENSAJE" 
+                    style="width: 100%; margin: 10px 0; padding: 10px; background: transparent; border: 2px solid var(--neon-blue); color: var(--neon-blue); min-height: 150px;"></textarea>
+                <button class="btn">ENVIAR</button>
+            </form>
+        </div>
+    </div>
+</section>
+

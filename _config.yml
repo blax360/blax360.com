@@ -1,26 +1,17 @@
-title: Bladimir Salazar - Creador Multimedia
+title: Bladimir Salazar
 email: blax360.com@gmail.com
-description: >- # La descripción del sitio
-  Creando historias, frame a frame.
-baseurl: "/" # La URL base para el despliegue (puedes dejarla vacía para entorno local)
-url: "https://blax360com-lxkrx.kinsta.page" # La URL de tu sitio en Kinsta
-encoding: "utf-8"
-twitter_username: blax360
-github_username: blax360
+description: Director · Creator · Showrunner
+baseurl: ""
+url: "https://blax360.com"
 
-# Build settings
-theme: minima
+markdown: kramdown
 plugins:
   - jekyll-feed
 
-# Excluir del procesamiento
 exclude:
-  - .sass-cache/
-  - .jekyll-cache/
-  - gemfiles/
   - Gemfile
   - Gemfile.lock
-  - node_modules/
+  - node_modules
   - vendor/bundle/
   - vendor/cache/
   - vendor/gems/
